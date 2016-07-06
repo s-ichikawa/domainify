@@ -12,7 +12,7 @@ import (
 
 var tlds = []string{"com", "net"}
 
-const allowedChars = "abcdefg"
+const allowedChars = "abcdefghijkl"
 
 func main()  {
     rand.Seed(time.Now().UTC().UnixNano())
